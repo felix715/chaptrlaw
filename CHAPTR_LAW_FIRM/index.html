@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaptr Law Firm</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("hide");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">Chaptr Law Firm</label>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <!-- <li><a href="#">Contacts</a></li>
+        <li><a href="#">Feedback</a></li> -->
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+    <section class="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">
+            EXPERIENCED LAWYERS ARE<br />
+            <span class="margin1">READY TO HELP AND</span>
+          </div>
+          <div class="text-2">FIGHT FOR YOU.</div>
+          <br />
+          <div class="text-3">
+            AT CHAPTR LAW,JUSTICE IS NOT AN ABSTRACT TERM.<span
+              ><br />
+              IT'S SOMETHING WE CREATE EVERYDAY FOR OUR <br />CLIENTS.</span
+            ><br />Chaptr is a truly kenyan firm with global links;<br />committed
+            to helping our clients meet the challenges posed <br />by global
+            economy.
+          </div>
+          <div class="text-image">
+            <ul style="display: flex">
+              <li>
+                <img
+                  src="images/depositphotos_140792212-stock-illustration-legal-center-vector-justice-scales.jpg"
+                  alt=""
+                  style="
+                    height: 98px;
+                    width: 98px;
+                    margin-right: 50px;
+                    border-radius: 50vw;
+                    margin-top: 45px;
+                    float: left;
+                    align-items: center;
+                  "
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="text-images">
+            <ul style="display: flex; color: white">
+              <!-- <li>
+                <p><br />Justice.</p>
+              </li>
+              <li>
+                <p><br />Recruitment of Lawyers.</p>
+              </li> -->
+              <li>
+                <p><br />Chaptr <b style="color: black">Law</b> Centre.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br /><br />
+        <button type="button" class="btn">EXPLORE</button>
+      </div>
+    </section>
+  </body>
+</html>
