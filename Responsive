@@ -1,0 +1,13 @@
+For css set the following by defaults 
+*,*::before,*::after{
+Padding=0;
+Margin=0;
+Boxsizing=borderbox;
+
+
+}
+For images
+Img{
+Width to 100%
+Height auto
+}
